@@ -1,0 +1,5 @@
+# dsh bundle layer: mount the peak-hour reminder plugin (dsh/index.js via the
+# package root export; the reminder UI logic lives in dsh/client.js).
+- insert:
+    - id: dsh-peak-reminder
+      name: '@local/dsh-peak-reminder'
