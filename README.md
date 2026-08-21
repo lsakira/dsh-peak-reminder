@@ -1,4 +1,4 @@
-# dsh-peak-reminder（DeepSeek Harness 高峰时段提醒插件）
+# 峰谷提示器（dsh-peak-reminder）
 
 > DeepSeek Harness（dsh）插件：模式指示灯、高峰前提醒、API 余额卡片。
 > 设计原则：**只提醒，绝不强制**。
