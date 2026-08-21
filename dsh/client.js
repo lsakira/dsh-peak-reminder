@@ -77,12 +77,12 @@ window.__ModuleLoader__.load({
       var b = document.getElementById('peak-mode-badge')
       if (!b) return
       if (inPeak(minutesOf(now))) {
-        b.textContent = '梁文峰 · 精简'
+        b.textContent = '梁文峰 · 高峰'
         b.style.background = '#7f1d1d'
         b.style.color = '#fecaca'
         b.style.border = '1px solid #991b1b'
       } else {
-        b.textContent = '梁文谷 · 正常'
+        b.textContent = '梁文谷 · 非高峰'
         b.style.background = '#14532d'
         b.style.color = '#bbf7d0'
         b.style.border = '1px solid #166534'
