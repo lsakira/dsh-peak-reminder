@@ -1,0 +1,25 @@
+{
+  "name": "@local/dsh-peak-reminder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./dsh/index.js",
+    "./package.json": "./package.json",
+    "./client": "./dsh/client.js"
+  },
+  "files": [
+    "dsh",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
